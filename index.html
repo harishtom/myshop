@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Coffee Shop</title>
+    <style>
+        body {
+            font-family: 'Arial, sans-serif';
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background: url('https://images.unsplash.com/photo-1514482342657-a61574b9b6c9') no-repeat center center/cover;
+            height: 100vh;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        header h1 {
+            font-size: 4em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.5em;
+        }
+        nav {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .menu {
+            background: #f4f4f4;
+        }
+        .menu h2 {
+            margin-top: 0;
+        }
+        .contact {
+            background: #333;
+            color: white;
+        }
+        .contact h2 {
+            margin-top: 0;
+        }
+        footer {
+            background: #222;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Your Coffee Shop</h1>
+        <p>Best Coffee in Town</p>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to Your Coffee Shop, where we serve the finest coffee in town. Our beans are sourced from the best farms around the world and our baristas are skilled in creating the perfect brew for you.</p>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <p>Explore our wide range of coffee and snacks, crafted to perfection.</p>
+            <ul>
+                <li>Espresso - $3</li>
+                <li>Latte - $4</li>
+                <li>Cappuccino - $4</li>
+                <li>Mocha - $5</li>
+                <li>Pastries - $2</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have any questions? Feel free to reach out!</p>
+            <p>Email: info@yourcoffeeshop.com</p>
+            <p>Phone: +123 456 7890</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Coffee Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
